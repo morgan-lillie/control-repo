@@ -1,4 +1,4 @@
-class profile::platform::baseline::windows::windows {
+class profile::platform::baseline::windows::directory {
 
 
 file { 'c:/cont/test.txt':
