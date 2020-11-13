@@ -1,4 +1,4 @@
-class profile::platform::baseline::users::windows {
+class profile::platform::baseline::windows::windows {
   
   user { 'Cont User':
     ensure => present,
