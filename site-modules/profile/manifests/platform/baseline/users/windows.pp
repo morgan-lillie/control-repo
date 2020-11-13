@@ -5,6 +5,7 @@ class profile::platform::baseline::users::windows {
     password => 'puppet',
     groups => ['Administrators'],
     }
+}
     
 
 
