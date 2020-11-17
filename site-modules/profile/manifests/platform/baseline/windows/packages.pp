@@ -10,7 +10,7 @@ class { 'archive':
 include chocolatey
 
 class {'chocolatey':
-  choco_install_location => 'D:\secured\choco',
+  choco_install_location => 'C:\secured\choco',
 }
 
 }
