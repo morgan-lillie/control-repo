@@ -1,4 +1,4 @@
-class profile::platform::baseline:windows:iis {
+class profile::platform::baseline::windows::iis {
 
 dism { 'IIS-WebServer':
   ensure => present,
