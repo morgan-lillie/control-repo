@@ -1,4 +1,4 @@
-class profile::platform::baseline::windows::acl
+class profile::platform::baseline::windows::acl {
 
 acl { 'c:/cont':
   target => 'c:/cont',
@@ -10,4 +10,5 @@ acl { 'c:/cont':
  ],
   owner => 'Cont User',
  
+}
 }
