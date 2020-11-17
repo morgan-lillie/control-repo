@@ -16,5 +16,6 @@ registry_value { 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\R
     ensure => present,
     data => '1',
     type => 'dword',
+    }
 
 }
