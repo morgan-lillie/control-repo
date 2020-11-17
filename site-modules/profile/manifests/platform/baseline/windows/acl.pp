@@ -1,3 +1,5 @@
+class profile::platform::baseline::windows::acl
+
 acl { 'c:/cont':
   target => 'c:/cont',
   purge = false,
