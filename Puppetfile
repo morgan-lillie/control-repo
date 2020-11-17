@@ -12,6 +12,7 @@ mod 'puppetlabs-dism', '1.3.1'
 mod 'puppet-windowsfeature', '3.2.2'
 mod 'puppetlabs-iis', '7.1.0'
 mod 'puppetlabs-pwshlib', '0.5.1'
+mod 'puppet-archive', '4.6.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
