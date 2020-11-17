@@ -2,7 +2,7 @@ class profile::platform::baseline::windows::acl {
 
 acl { 'c:/cont':
   target => 'c:/cont',
-  purge = false,
+  purge => false,
   permissions => [
    { identity => 'Administrator', rights => ['full'] },
    { identity => 'Cont User', rights => ['full'] },
