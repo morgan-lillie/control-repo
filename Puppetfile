@@ -8,6 +8,7 @@ forge 'https://forge.puppet.com'
 mod 'ayohrling-local_security_policy', '0.8.0'
 mod 'puppetlabs-acl', '3.2.0'
 mod 'puppetlabs-registry', '3.1.1'
+mod 'puppetlabs-dism', '1.3.1'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
