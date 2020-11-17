@@ -6,4 +6,11 @@ class { 'archive':
   seven_zip_source   => 'C:/Windows/Temp/7z920-x64.msi',
   seven_zip_provider => 'windows',
 }
+
+include chocolatey
+
+class {'chocolatey':
+  choco_install_location => 'D:\secured\choco',
+}
+
 }
