@@ -12,4 +12,9 @@ registry_value { 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed C
     type => 'dword',
 }
 
+registry_value { 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Reliability\shutdown\ReasonCode':
+    ensure => present,
+    data => '1',
+    type => 'dword',
+
 }
