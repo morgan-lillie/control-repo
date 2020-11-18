@@ -13,7 +13,7 @@ class {'chocolatey':
 }
 
 package { '7zip':
-  ensure   => latest,
+  ensure   => absent,
 }
 
 }
