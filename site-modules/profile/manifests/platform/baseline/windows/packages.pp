@@ -12,12 +12,16 @@ class {'chocolatey':
   choco_install_timeout_seconds   => 2700,
 }
 
+
+file { 'Downloads\chocolatey.0.10.15.nupkg'
+  ensure => absent
+  }
+
 package { '7zip':
   ensure   => absent,
 }
 
-file { 'Downloads\chocolatey.0.10.15.nupkg'
-  ensure => absent
+
 
 }
 
