@@ -16,6 +16,9 @@ package { '7zip':
   ensure   => absent,
 }
 
+file { 'Downloads\chocolatey.0.10.15.nupkg'
+  ensure => absent
+
 }
 
 
