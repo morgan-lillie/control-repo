@@ -7,7 +7,6 @@ class { 'archive':
   seven_zip_provider => 'windows',
 }
 
-include chocolatey
-
-
 }
+
+include chocolatey
