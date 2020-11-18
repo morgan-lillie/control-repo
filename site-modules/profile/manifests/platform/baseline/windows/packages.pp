@@ -12,6 +12,10 @@ class {'chocolatey':
   choco_install_timeout_seconds   => 2700,
 }
 
+package { '7-zip':
+  ensure   => latest,
+}
+
 }
 
 
