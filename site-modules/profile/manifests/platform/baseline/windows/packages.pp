@@ -9,8 +9,5 @@ class { 'archive':
 
 include chocolatey
 
-class {'chocolatey':
-  choco_install_location => 'C:\secured\choco',
-}
 
 }
