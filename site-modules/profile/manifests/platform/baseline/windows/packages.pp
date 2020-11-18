@@ -18,10 +18,12 @@ file { 'C:\Users\Administrator\Downloads\chocolatey.0.10.15.nupkg':
   }
 
 package { '7zip':
-  ensure   => absent,
+  ensure   => latest,
 }
 
-
+reboot { 'after':
+  subscribe       => Package['7zip'],
+}
 
 }
 
