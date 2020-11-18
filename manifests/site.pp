@@ -30,6 +30,8 @@ node default {
   #   class { 'my_class': }
 }
 
-if $::kernel == 'windows' {
-  Package { provider => chocolatey, }
+case $operatingsystem {
+  'windows': {
+    Package { provider => chocolatey, }
+  }
 }
