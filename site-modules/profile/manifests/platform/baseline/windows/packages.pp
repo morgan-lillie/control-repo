@@ -13,7 +13,7 @@ class {'chocolatey':
 }
 
 
-file { 'Downloads\chocolatey.0.10.15.nupkg':
+file { 'C:\Users\Administrator\Downloads\chocolatey.0.10.15.nupkg':
   ensure => absent,
   }
 
