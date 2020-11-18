@@ -3,7 +3,6 @@ forge 'https://forge.puppet.com'
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
 #mod 'puppetlabs/inifile', '3.0.0'
-#mod 'puppetlabs/stdlib',  '6.0.0'
 #mod 'puppetlabs/concat',  '6.0.0'
 mod 'ayohrling-local_security_policy', '0.8.0'
 mod 'puppetlabs-acl', '3.2.0'
@@ -15,6 +14,7 @@ mod 'puppetlabs-pwshlib', '0.5.1'
 mod 'puppet-archive', '4.6.0'
 mod 'puppetlabs-chocolatey', '5.1.1'
 mod 'puppetlabs-powershell', '4.0.0'
+mod 'puppetlabs-stdlib', '6.5.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
