@@ -6,10 +6,10 @@ class profile::platform::baseline::windows::packages{
 #  seven_zip_source   => 'C:/Windows/Temp/7z920-x64.msi',
 #  seven_zip_provider => 'windows',
 #
-
 class {'chocolatey':
-  chocolatey_download_url => 'C:\Users\Administrator\Downloads\chocolatey.0.10.15.nupkg',
-  use_7zip                => false,
+  chocolatey_download_url         => 'C:\Users\Administrator\Downloads\chocolatey.0.10.15.nupkg',
+  use_7zip                        => false,
+  choco_install_timeout_seconds   => 2700,
 }
 
 }
