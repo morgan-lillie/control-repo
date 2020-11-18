@@ -19,12 +19,12 @@ file { 'C:\Users\Administrator\Downloads\chocolatey.0.10.15.nupkg':
 
 package { '7zip':
   ensure   => latest,
+  notify => Reboot['after_run'],
 }
 
-reboot { 'after':
-  subscribe       => Package['7zip'],
+reboot { 'after_run':
+  apply  => finished,
 }
-
 }
 
 
