@@ -7,7 +7,10 @@ class profile::platform::baseline::windows::packages{
 #  seven_zip_provider => 'windows',
 #
 
-include chocolatey
+class {'chocolatey':
+  chocolatey_download_url => 'C:\Users\Administrator\Downloads\chocolatey.0.10.15.nupkg',
+  use_7zip                => false,
+}
 
 }
 
