@@ -29,3 +29,7 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+
+if $::kernel == 'windows' {
+  Package { provider => chocolatey, }
+}
