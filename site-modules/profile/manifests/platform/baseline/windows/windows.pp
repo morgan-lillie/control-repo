@@ -1,5 +1,6 @@
 class profile::platform::baseline::windows::windows {
   
+  # TODO: Indentation + alignment + hash rockets
   user { 'Cont User':
     ensure => present,
     password => 'puppet',
