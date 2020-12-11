@@ -1,3 +1,4 @@
+#Manages the IIS feautre
 class profile::platform::baseline::windows::iis {
 
   # Create Directories
