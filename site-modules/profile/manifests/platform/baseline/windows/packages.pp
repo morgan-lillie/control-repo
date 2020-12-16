@@ -3,13 +3,7 @@ class profile::platform::baseline::windows::packages{
 
   # TODO: Indentation
 
-#class { 'archive':
-#  seven_zip_name     => '7-Zip 9.20 (x64 edition)',
-#  seven_zip_source   => 'C:/Windows/Temp/7z920-x64.msi',
-#  seven_zip_provider => 'windows',
-#
 
-  # TODO: Hash rocket (=>) alignment
 class {'chocolatey':
   chocolatey_download_url       => 'https://chocolatey.org/api/v2/package/chocolatey',
   use_7zip                      => false,
