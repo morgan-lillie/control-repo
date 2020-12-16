@@ -1,4 +1,4 @@
-#ensures presence of cont directory and that it belongs to the Cont User
+#ensures presence of cont directory and that it belongs to the Cont User and manages ACLs of the directory
 class profile::platform::baseline::windows::directory {
 
   # TODO: Alignment
@@ -9,4 +9,17 @@ class profile::platform::baseline::windows::directory {
     owner  => 'Cont User',
     group  => 'Cont Group',
 }
+
+acl { 'c:/cont':
+  target      => 'c:/cont',
+  purge       => false,
+  permissions => [
+  { identity => 'Administrator', rights => ['full'] },
+  { identity => 'Cont User', rights => ['full'] },
+  { identity => 'Users', rights => ['read'] },
+  ],
+  owner       => 'Cont User',
+
+  }
+
 }
