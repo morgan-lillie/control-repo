@@ -1,19 +1,19 @@
 #manages users, groups, and security policy
-class profile::platform::baseline::windows::windows {
+class profile::platform::baseline::windows::leadusers {
 
   # TODO: Indentation + alignment + hash rockets
-  user { 'Cont User':
+  user { 'Lead User':
     ensure   => present,
     password => 'puppet',
-    groups   => ['Administrators', 'Cont Group'],
+    groups   => ['Administrators', 'Lead Group'],
     }
 
-  group { 'Cont Group':
+  group { 'Lead Group':
       ensure => present,
       }
   #requires mod 'ayohrling-local_security_policy', '0.8.0'    
   local_security_policy { 'Log on as a service':
   ensure       => present,
-  policy_value => 'Cont Group',
+  policy_value => 'Lead Group',
 }
 }

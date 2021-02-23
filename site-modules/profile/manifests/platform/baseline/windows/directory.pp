@@ -3,10 +3,10 @@ class profile::platform::baseline::windows::directory {
 
   # TODO: Alignment
   # TODO: Work out how to ensure that the cont user is already there
-  require windows
-  file { 'c:/cont':
+  require profile::platform::baseline::windows::windows
+  file { 'c:/lead':
     ensure => 'directory',
-    owner  => 'Cont User',
-    group  => 'Cont Group',
+    owner  => 'Lead User',
+    group  => 'Lead Group',
 }
 }
