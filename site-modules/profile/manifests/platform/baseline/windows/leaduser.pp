@@ -1,10 +1,21 @@
 #manages users, groups, and security policy
 class profile::platform::baseline::windows::leaduser {
 
+  if $department == 'marketing' {
+    $leaduser = 'marketlead'
+    $password = 'password3'
+  } elsif $department == 'sales' {
+    $leaduser = 'saleslead'
+    $password = 'alwaysbeclosing'
+  } elsif $department == 'IT' {
+    $leaduser = 'ITlead'
+    $password = 'hunter2'
+  }
+
   # TODO: Indentation + alignment + hash rockets
-  user { 'Lead User':
+  user { $leaduser:
     ensure   => present,
-    password => 'puppet',
+    password => $password,
     groups   => ['Administrators', 'Lead Group'],
   }
 
