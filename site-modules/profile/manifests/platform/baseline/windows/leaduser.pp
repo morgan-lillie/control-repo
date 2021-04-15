@@ -1,13 +1,15 @@
 #manages users, groups, and security policy
 class profile::platform::baseline::windows::leaduser {
 
-  if $department == 'marketing' {
+
+
+  if $departmentid == 'm' {
     $leaduser = 'marketlead'
     $password = 'password3'
-  } elsif $department == 'sales' {
+  } elsif $departmentid == 's' {
     $leaduser = 'saleslead'
     $password = 'alwaysbeclosing'
-  } elsif $department == 'IT' {
+  } elsif $department == 'i' {
     $leaduser = 'ITlead'
     $password = 'hunter2'
   }
