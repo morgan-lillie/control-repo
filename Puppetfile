@@ -15,6 +15,7 @@ mod 'puppetlabs-chocolatey', '5.1.1'
 mod 'puppetlabs-powershell', '4.0.0'
 mod 'puppetlabs-stdlib', '6.5.0'
 mod 'puppetlabs-reboot', '3.1.0'
+mod 'puppetlabs-exec', '1.0.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
