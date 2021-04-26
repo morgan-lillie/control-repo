@@ -1,4 +1,5 @@
 Facter.add(:department) do
+    hostname = $facts['hostname']
     setcode do
         hostname = Facter.value('hostname')
         departmentid = hostname[-1]
