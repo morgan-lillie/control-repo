@@ -11,7 +11,6 @@ Facter.add(:department) do
         } else {
             department = "unknown"
         }
-        end
         department
     end
 end
