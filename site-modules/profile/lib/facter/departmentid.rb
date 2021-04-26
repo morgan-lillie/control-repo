@@ -8,7 +8,9 @@ Facter.add(:department) do
             department = "sales"
         } elsif departmentid = "i" {
             department = "it"
-        } 
+        } else {
+            department = "unknown"
+        }
         end
         department
     end
