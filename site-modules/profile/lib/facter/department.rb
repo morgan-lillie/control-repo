@@ -9,7 +9,7 @@ Facter.add(:department) do
         elsif departmentid == 'i'
             department = 'it'
         else
-            department = 'null'
+            department = 'it'
         end
         department
 
