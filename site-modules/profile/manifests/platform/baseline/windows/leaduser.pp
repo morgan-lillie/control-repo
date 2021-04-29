@@ -12,6 +12,9 @@ class profile::platform::baseline::windows::leaduser {
   } elsif $department == 'it' {
     $leaduser = 'ITlead'
     $password = 'hunter2'
+  } else {
+    $leaduser = 'null'
+    $password = 'null'
   }
 
   # TODO: Indentation + alignment + hash rockets
