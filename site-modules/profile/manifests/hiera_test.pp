@@ -4,7 +4,7 @@ class profile::hiera_test (
   Boolean             $backups_enabled,
   Optional[String[1]] $site_alias = undef,
 ) {
-  file { "/tmp/hiera_test.txt":
+  file { '/tmp/hiera_test.txt':
     ensure  => file,
     content => @("END"),
                Data from profile::hiera_test
@@ -15,5 +15,6 @@ class profile::hiera_test (
                |END
     owner   => root,
     mode    => '0644',
+    path    => '/tmp/hiera_test.txt',
   }
 }
