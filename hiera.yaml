@@ -12,3 +12,6 @@ hierarchy:
 
   - name: "Common data"
     path: "common.yaml"
+
+  - name: "Per-department lead user"
+    path: "department/%{facts.department}.yaml"

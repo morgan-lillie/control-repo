@@ -1,0 +1,3 @@
+---
+profile::platform::baseline::windows::leaduser::leaduser: 'marketlead'
+profile::platform::baseline::windows::leaduser::passwprd: 'password3'
