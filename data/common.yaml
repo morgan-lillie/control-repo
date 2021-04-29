@@ -1,2 +1,4 @@
+# /etc/puppetlabs/code/environments/production/data/common.yaml
 ---
-message: "This node is using common data"
+profile::hiera_test::ssl: false
+profile::hiera_test::backups_enabled: true
