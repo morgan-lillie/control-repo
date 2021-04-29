@@ -1,7 +1,7 @@
 Facter.add(:department) do
     setcode do
         hostname = Facter.value('hostname')
-        departmentid = hostname[-1]
+        departmentid = hostname
         if departmentid = 'm'
             department = 'marketing'            
         elsif departmentid = 's'
