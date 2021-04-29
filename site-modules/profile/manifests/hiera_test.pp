@@ -15,6 +15,6 @@ class profile::hiera_test (
                |END
     owner   => root,
     mode    => '0644',
-    path    => '/tmp/hiera_test.txt',
+    path    => 'puppet///tmp/hiera_test.txt',
   }
 }
