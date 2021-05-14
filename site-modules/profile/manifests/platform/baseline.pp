@@ -1,3 +1,4 @@
+#
 class profile::platform::baseline{
   include profile::platform::baseline::windows::registry
   include profile::platform::baseline::windows::leaduser
