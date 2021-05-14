@@ -20,4 +20,4 @@ hierarchy:
     path: "common.yaml"
 
   - name: "Per-department lead user"
-    path: "department/%{facts.department}.yaml"
+    path: "department/%{facts.department}.eyaml"
