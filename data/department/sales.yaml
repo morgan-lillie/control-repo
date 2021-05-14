@@ -1,3 +1,0 @@
----
-profile::platform::baseline::windows::leaduser::leaduser: 'saleslead'
-profile::platform::baseline::windows::leaduser::password: 'alwaysbeclosing'

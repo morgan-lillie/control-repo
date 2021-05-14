@@ -1,3 +1,0 @@
----
-profile::platform::baseline::windows::leaduser::leaduser: 'ITlead'
-profile::platform::baseline::windows::leaduser::password: 'hunter123'
