@@ -1,3 +1,12 @@
 ---
 profile::platform::baseline::windows::leaduser::leaduser: 'ITlead'
-profile::platform::baseline::windows::leaduser::password: 'hunter123'
+profile::platform::baseline::windows::leaduser::password: >
+  ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBAD
+  AFMAACAQEwDQYJKoZIhvcNAQEBBQAEggEAFwyzYd361XsbS6ptSXF+oLTLH1
+  Y3Acv+Esd2Fx3HBqq6Mz7I9gW1n9e4mjmwILDai1T//PXcX3++oW428f7PFY
+  93d20Ez74w+LNHiC27nScwUq8giazwGb/NVMLwibF4E6TYJZ/Y4NWhI+YWnA
+  6Wsz4OY+1zGoGptwYTRJmkxCr4IrFrj38UCm4nFPMYU1fCxqH+ukXXkvdl/0
+  P3sEwyWJv4NapYbr7Y+UYW2nDk+SeNX1nqSZ43EwJDh7waOWlTZWK2FXIbxl
+  bQmV/fnaagL0eKvTPeyxkgQB/1nwUQH/9EevHWNVAvpPkK5nhHERblYbg02b
+  Twt31KHq1GpsS31jA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBCY9QNswA
+  yEI/humue1/PMOgBDFp2yevQiAvOJKf9zMaGw/]

@@ -1,0 +1,12 @@
+---
+profile::platform::baseline::windows::leaduser::leaduser: 'marketlead'
+profile::platform::baseline::windows::leaduser::password: >
+  ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBAD
+  AFMAACAQEwDQYJKoZIhvcNAQEBBQAEggEAK1NmHBHmO06OGKaYdu91qYEstc
+  tVjLWyxUyME5a4oLQzr3RD4kp1FBy18M3qHaBFUbOPtxPZ4hDNIZc7JZINhT
+  JcQ+iuvoaN9r2vDSV3VId3x+fPe0pFxO9qrjQvG/QeSBLvkxK6QdhWiT5Wdb
+  Oye3A4uFoupFGdUApK4fy60tS4Kp55ZVuJtUfXsO+D8s0Ij5v7D+ergMFFTV
+  lteEhjozPROjYQ7J7pKq2LB3O7+caIZgM4hAtJJr/DHQv8Mw6uvEeaiwLL7C
+  8KMx8p9qH6d3is6N5tdfVvuwXe1bF4K8be2qQxnccd/O0cjS48fubPZ8b2aq
+  C7h4Psvq3ySeQ+YzA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBC0IYDik5
+  BCDV3lzjvGMKWZgBD885XtH4oydA52TW5x3ydE]

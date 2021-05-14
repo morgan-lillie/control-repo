@@ -1,0 +1,12 @@
+---
+profile::platform::baseline::windows::leaduser::leaduser: 'saleslead'
+profile::platform::baseline::windows::leaduser::password: >
+  ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBAD
+  AFMAACAQEwDQYJKoZIhvcNAQEBBQAEggEAjW+zzDBWd+pY4Tg+a4vSoFFjkc
+  /+H5V8VfCZCP1j5Nt014dANAC32UIu+l8mzSXPoGjqlHMxnA8oOfylKbx0rq
+  +Lc2P8qtscnmXqoEHW8NYxSkoC5qujZbKrB6AihD08DubN4e2hTFWAFskMr7
+  yQEmwiJ4wlHAfN1WQmSYeI9Wo7XK/MS+ISLFXNNXJyF1V7InrCTqT+UM3fXt
+  sc0BZNEMJoU3t/DkJhp1tSIJ4eSeYHHWBe9vw7PN28kl6P652vAd4RgPG0Wd
+  +i9kLY/FOaw7AU4OykqaJ5aMXOcaLCQ3VZOWz/TiyVptysz2uW410EKeQQ5/
+  bbIJmIjL51cFaAXjA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBAez3WVmx
+  OF04AOD8VWPyp6gBByDBioIRyUWvXs6UJuROJW]
