@@ -10,8 +10,6 @@ Facter.add(:department) do
             department = 'sales'
         when 'i'
             department = 'it'
-        else
-            department = 'it'
         end
         department
     end
