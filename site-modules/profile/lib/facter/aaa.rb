@@ -1,6 +1,6 @@
 Facter.add(:department) do
     setcode do
         aaa = Facter.value(:hostname)
-        hostname
+        aaa
     end
 end 
