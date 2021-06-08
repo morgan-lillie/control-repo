@@ -18,6 +18,7 @@ mod 'puppetlabs-reboot', '3.1.0'
 mod 'puppetlabs-exec', '1.0.0'
 mod 'puppet-hiera', '4.0.0'
 mod 'janschumann-rvm', '1.14.2'
+mod 'golja-gnupg', '1.2.3'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
