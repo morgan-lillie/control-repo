@@ -23,7 +23,7 @@ mod 'jdowning-rbenv', '2.5.0'
 mod 'puppetlabs-vcsrepo', '5.0.0'
 
 mod 'pse_dashboard_module',
-    :git => 'git@github.com:morgan-lillie/control-repo.git',
+    :git => 'git@github.com:morgan-lillie/pse_dashboard_module.git',
     :branch => 'main',
     :default_branch => 'main'
 
