@@ -24,6 +24,8 @@ mod 'puppetlabs-vcsrepo', '5.0.0'
 
 mod 'pse_dashboard_module',
     :git => 'git@github.com:morgan-lillie/control-repo.git'
+    :branch => :main,
+    :default_branch => 'main'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
