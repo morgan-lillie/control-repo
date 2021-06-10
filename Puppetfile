@@ -23,7 +23,7 @@ mod 'jdowning-rbenv', '2.5.0'
 mod 'puppetlabs-vcsrepo', '5.0.0'
 
 mod 'pse_dashboard_module'
-    :git => https://github.com/morgan-lillie/pse_dashboard_module.git
+    :git => 'https://github.com/morgan-lillie/pse_dashboard_module.git'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
