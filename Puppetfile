@@ -22,7 +22,7 @@ mod 'golja-gnupg', '1.2.3'
 mod 'jdowning-rbenv', '2.5.0'
 mod 'puppetlabs-vcsrepo', '5.0.0'
 
-mod 'pse_dashboard_module'
+mod 'pse_dashboard_module',
     :git => 'https://github.com/morgan-lillie/pse_dashboard_module.git'
 
 # Modules from Git
