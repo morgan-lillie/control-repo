@@ -1,9 +1,8 @@
 #
 class profile::platform::video{
 
-file { 'sample video':
+file { 'C:/testvid.mov':
   ensure => file,
-  path   => 'C:/',
-  source => 'puppet:///modules/testvid.mov',
+  source => 'puppet:///modules/videos/testvid.mov',
   }
 }
