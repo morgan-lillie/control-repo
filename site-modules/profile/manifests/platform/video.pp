@@ -1,8 +1,9 @@
 #
 class profile::platform::video{
 
-file { 'C:/testvid.mov':
-  ensure => present,
-  source => 'puppet:///modules/videos/testvid.mov',
+file { 'C:/testvid.txt':
+  ensure  => present,
+  #source  => 'puppet:///modules/videos/testvid.mov',
+  content => 'test'
   }
 }
